@@ -8,5 +8,5 @@ namespace ET
 		{
 			UIHelper.Remove(args.ZoneScene, UIType.UILogin).Coroutine();
 		}
-	}
+	} 
 }

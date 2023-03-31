@@ -107,5 +107,21 @@ namespace ET
         {
             public Unit Unit;
         }
+
+        /// <summary>
+        /// install computer event
+        /// </summary>
+        public struct InstallComputer
+        {
+            public Computer Computer;
+        }
+
+        /// <summary>
+        /// async event
+        /// </summary>
+        public struct InstallComputerAsync
+        {
+            public Computer Computer;
+        }
     }
 }

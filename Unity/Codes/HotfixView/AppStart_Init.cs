@@ -31,6 +31,7 @@ namespace ET
             Game.Scene.AddComponent<AIDispatcherComponent>();
             await ResourcesComponent.Instance.LoadBundleAsync("unit.unity3d");
             
+            //创建了zonescene
             Scene zoneScene = SceneFactory.CreateZoneScene(1, "Game", Game.Scene);
             
             Game.EventSystem.Publish(new EventType.AppStartInitFinish() { ZoneScene = zoneScene });

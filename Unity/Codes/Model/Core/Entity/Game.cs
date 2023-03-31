@@ -20,6 +20,7 @@ namespace ET
                 {
                     return scene;
                 }
+                //创建出game scene
                 scene = EntitySceneFactory.CreateScene(IdGenerater.Instance.GenerateInstanceId(), 0, SceneType.Process, "Process");
                 return scene;
             }

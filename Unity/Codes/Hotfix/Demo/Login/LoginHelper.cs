@@ -23,7 +23,7 @@ namespace ET
                 {
                     session?.Dispose();
                 }
-
+    
                 // 创建一个gate Session,并且保存到SessionComponent中
                 Session gateSession = zoneScene.GetComponent<NetKcpComponent>().Create(NetworkHelper.ToIPEndPoint(r2CLogin.Address));
                 gateSession.AddComponent<PingComponent>();
